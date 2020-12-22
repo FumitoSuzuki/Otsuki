@@ -30,5 +30,11 @@ export default {}
 }
 .introduction .body {
   min-height: 50%;
+  font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN',
+    'Times New Roman', Times, serif;
+}
+.introduction .body h1 {
+  font-size: 5rem;
+  text-shadow: 5px 5px 8px #000;
 }
 </style>

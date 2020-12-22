@@ -1,5 +1,8 @@
 ---
-title: PERFORMANT
+title: 政治活動のコミュニケーションデザイン制作
+image:
+  url: http://de-signing.com/wp-content/uploads/2016/02/pack1.png
+  alt: 必勝パック ASK
 ---
 
 With Nuxt.js, your application will be optimized out of the box.  

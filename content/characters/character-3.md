@@ -1,5 +1,8 @@
 ---
-title: ENJOYABLE
+title: 印刷 / 追加印刷 / 製本
+image:
+  url: http://de-signing.com/wp-content/uploads/2016/02/pack1.png
+  alt: 必勝パック ASK
 ---
 
 Our main focus is the Developer Experience.  
