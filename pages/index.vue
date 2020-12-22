@@ -1,21 +1,19 @@
 <template>
   <section id="main">
-    <FullsizeBox class="p-2">
+    <FixidAspectBox
+      :aspect-x="983.33"
+      :aspect-y="211.34"
+      :aspect-md-x="1"
+      :aspect-md-y="2"
+    >
       <Introduction class="text-center">
-        <template #header></template>
         <template #body>
-          <nuxt-content :document="intro" />
-        </template>
-        <template #footer>
-          <Logo :width="60" :height="60" />
+          <h1>伝わる。勝つ。</h1>
         </template>
       </Introduction>
-    </FullsizeBox>
+    </FixidAspectBox>
     <article>
-      <LeadCopy class="my-3">
-        <nuxt-content :document="leadcopy" />
-      </LeadCopy>
-      <Characters :contents="characters" />
+      <Characters :contents="characters" class="my-5" />
       <Topics :rows="topics" />
       <Others :contents="others" class="my-3" />
     </article>
@@ -44,7 +42,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 #main {
   background-color: white;
 }
